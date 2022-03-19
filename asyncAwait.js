@@ -7,16 +7,6 @@ let stocks = {
 
 let is_shop_open = true;
 
-function toppings_choice (){
-    return new Promise((resolve,reject)=>{
-      setTimeout(()=>{
-  
-        resolve( console.log("which topping would you love?") )
-  
-      },3000)
-    })
-  }
-
 function time(ms) {
 
    return new Promise( (resolve, reject) => {
